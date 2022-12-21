@@ -22,11 +22,10 @@ The leaderboard will also show how the robot's time scores rank between each oth
 
 
 # BOT-O-MAT
-Use any language to complete this challenge. The implementation is up to you: it can be a command-line application or have a graphical interface.
 
-Your application should collect a name and robot type from the types we list below. For each, it should create a Robot of the type the user chooses, e.g. Larry, Bipedal. 
+The application collects a name and robot type from the types we list below. For each, it should create a Robot of the type the user chooses, e.g. Larry, Bipedal. 
 
-Given the list of tasks below, your application should then assign the Robot a set of five tasks, all of which complete after a duration that we show in milliseconds. 
+Given the list of tasks below, the application assigns the Robot a set of five tasks, all of which complete after a duration that shown in milliseconds. 
 
 
 
@@ -89,9 +88,3 @@ Tasks have a description and an estimated time to complete.
 }
 ```
 
-## Features to add once the core functionality is complete
-Be creative and have fun! Use this list or create your own features.
-- Allow users to create multiple robots at one time
-- Create a leaderboard for tasks completed by each Robot
-- Create tasks specific for each robot type, this could work in conjunction with the leaderboard. For e.g. robots that are assigned tasks that their type can’t perform won’t get “credit” for finishing the task.
-- Add persistance for tasks, bots and leaderboard stats
